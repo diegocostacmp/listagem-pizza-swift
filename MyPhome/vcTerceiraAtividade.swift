@@ -16,13 +16,29 @@ class vcTerceiraAtividade: UIViewController, UIPickerViewDelegate, UIPickerViewD
     
     var paradigmas = ["Estruturas", "Orientadas a Objetos"]
     var vetorLinguagens = [["C", "Pascal"], ["Java", "Swift", "C Charp"]]
-    
-    override func numberOf
-    
+    var paradigmaSelecionado = 0
+   
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return paradigmas.count
+        if (component == 0) {
+            return paradigmas.count
+        }
+        return vetorLinguagens[pickerView.selectedRow(inComponent: 0)].count
     }
 
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        if (component == 0) {
+            return paradigmas[row]
+        } else {
+            let selecionado = pickerView.selectedRow(inComponent: 0)
+            return vetorLinguagens[selecionado][row]
+        }
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        if (component == 0) {
+            pickerView.reloadComponent(1)
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
