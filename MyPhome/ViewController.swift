@@ -17,28 +17,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func viewWillAppear(_ animated: Bool) {
-        print("a tela 1 está pronta mas ainda não visível")
-    }
-
-    override func viewDidAppear(_ animated: Bool) {
-        print("tela 1 já visível")
+    @IBAction func alterarTexto(_ sender: UIButton) {
+        vrLabel.text = "Olá Mundo!"
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
-        print("a tela 1 desaparecerá em breve")
-    }
+    @IBOutlet weak var vrLabel: UILabel!
     
-    override func viewDidDisappear(_ animated: Bool) {
-        print("a tela 1 já desapareceu")
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        print("")
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
-
