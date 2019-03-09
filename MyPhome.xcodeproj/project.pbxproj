@@ -17,6 +17,7 @@
 		575750A5223409B5005CADF3 /* SegundaTelaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575750A4223409B5005CADF3 /* SegundaTelaViewController.swift */; };
 		575750A722342683005CADF3 /* vcICM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575750A622342683005CADF3 /* vcICM.swift */; };
 		575750A92234399B005CADF3 /* vcAtividadeDois.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575750A82234399B005CADF3 /* vcAtividadeDois.swift */; };
+		575750AB22344871005CADF3 /* vcTerceiraAtividade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575750AA22344871005CADF3 /* vcTerceiraAtividade.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		575750A4223409B5005CADF3 /* SegundaTelaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundaTelaViewController.swift; sourceTree = "<group>"; };
 		575750A622342683005CADF3 /* vcICM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcICM.swift; sourceTree = "<group>"; };
 		575750A82234399B005CADF3 /* vcAtividadeDois.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcAtividadeDois.swift; sourceTree = "<group>"; };
+		575750AA22344871005CADF3 /* vcTerceiraAtividade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcTerceiraAtividade.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				5757507A2233F9DF005CADF3 /* Main.storyboard */,
 				575750A82234399B005CADF3 /* vcAtividadeDois.swift */,
 				575750A622342683005CADF3 /* vcICM.swift */,
+				575750AA22344871005CADF3 /* vcTerceiraAtividade.swift */,
 				5757507D2233F9DF005CADF3 /* Assets.xcassets */,
 				5757507F2233F9DF005CADF3 /* LaunchScreen.storyboard */,
 				575750822233F9DF005CADF3 /* Info.plist */,
@@ -271,6 +274,7 @@
 				575750A722342683005CADF3 /* vcICM.swift in Sources */,
 				575750792233F9DF005CADF3 /* ViewController.swift in Sources */,
 				575750A5223409B5005CADF3 /* SegundaTelaViewController.swift in Sources */,
+				575750AB22344871005CADF3 /* vcTerceiraAtividade.swift in Sources */,
 				575750A92234399B005CADF3 /* vcAtividadeDois.swift in Sources */,
 				575750772233F9DF005CADF3 /* AppDelegate.swift in Sources */,
 			);
