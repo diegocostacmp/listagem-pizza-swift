@@ -14,6 +14,7 @@
 		575750812233F9DF005CADF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5757507F2233F9DF005CADF3 /* LaunchScreen.storyboard */; };
 		5757508C2233F9DF005CADF3 /* MyPhomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5757508B2233F9DF005CADF3 /* MyPhomeTests.swift */; };
 		575750972233F9DF005CADF3 /* MyPhomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575750962233F9DF005CADF3 /* MyPhomeUITests.swift */; };
+		575750A5223409B5005CADF3 /* SegundaTelaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575750A4223409B5005CADF3 /* SegundaTelaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		575750922233F9DF005CADF3 /* MyPhomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPhomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		575750962233F9DF005CADF3 /* MyPhomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPhomeUITests.swift; sourceTree = "<group>"; };
 		575750982233F9DF005CADF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		575750A4223409B5005CADF3 /* SegundaTelaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundaTelaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				575750762233F9DF005CADF3 /* AppDelegate.swift */,
 				575750782233F9DF005CADF3 /* ViewController.swift */,
+				575750A4223409B5005CADF3 /* SegundaTelaViewController.swift */,
 				5757507A2233F9DF005CADF3 /* Main.storyboard */,
 				5757507D2233F9DF005CADF3 /* Assets.xcassets */,
 				5757507F2233F9DF005CADF3 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				575750792233F9DF005CADF3 /* ViewController.swift in Sources */,
+				575750A5223409B5005CADF3 /* SegundaTelaViewController.swift in Sources */,
 				575750772233F9DF005CADF3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
