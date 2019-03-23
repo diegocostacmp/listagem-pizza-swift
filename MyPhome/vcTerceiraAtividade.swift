@@ -37,14 +37,29 @@ class vcTerceiraAtividade: UIViewController, UIPickerViewDelegate, UIPickerViewD
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         if (component == 0) {
             pickerView.reloadComponent(1)
+            
+         //   let linhaSelecionada = pickerView.selectedRow(inComponent: 0)
+            
+            pickerView.selectRow(0, inComponent: 1, animated: true)
+            
+//            carregaImagem(nome: vetorLinguagens[linhaSelecionada][0])
+            
+            return
         }
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+  //      vrPicker.delegate = self
+    //    vrPicker.dataSource = self
+      //  carregaImagem(nome: vetorLinguagens[0][0])
 
         // Do any additional setup after loading the view.
     }
+    
+//    private carregaImagem() { }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

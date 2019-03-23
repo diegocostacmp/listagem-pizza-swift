@@ -18,6 +18,9 @@
 		575750A722342683005CADF3 /* vcICM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575750A622342683005CADF3 /* vcICM.swift */; };
 		575750A92234399B005CADF3 /* vcAtividadeDois.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575750A82234399B005CADF3 /* vcAtividadeDois.swift */; };
 		575750AB22344871005CADF3 /* vcTerceiraAtividade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575750AA22344871005CADF3 /* vcTerceiraAtividade.swift */; };
+		57B9F99B2245A0D800AC7902 /* VCCardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B9F99A2245A0D800AC7902 /* VCCardapio.swift */; };
+		57B9F99D2245A30600AC7902 /* BaseDados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B9F99C2245A30600AC7902 /* BaseDados.swift */; };
+		57B9F9A12245A7BA00AC7902 /* CellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B9F9A02245A7BA00AC7902 /* CellController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		575750A622342683005CADF3 /* vcICM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcICM.swift; sourceTree = "<group>"; };
 		575750A82234399B005CADF3 /* vcAtividadeDois.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcAtividadeDois.swift; sourceTree = "<group>"; };
 		575750AA22344871005CADF3 /* vcTerceiraAtividade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcTerceiraAtividade.swift; sourceTree = "<group>"; };
+		57B9F99A2245A0D800AC7902 /* VCCardapio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCardapio.swift; sourceTree = "<group>"; };
+		57B9F99C2245A30600AC7902 /* BaseDados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDados.swift; sourceTree = "<group>"; };
+		57B9F9A02245A7BA00AC7902 /* CellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,9 @@
 				5757507D2233F9DF005CADF3 /* Assets.xcassets */,
 				5757507F2233F9DF005CADF3 /* LaunchScreen.storyboard */,
 				575750822233F9DF005CADF3 /* Info.plist */,
+				57B9F99A2245A0D800AC7902 /* VCCardapio.swift */,
+				57B9F99C2245A30600AC7902 /* BaseDados.swift */,
+				57B9F9A02245A7BA00AC7902 /* CellController.swift */,
 			);
 			path = MyPhome;
 			sourceTree = "<group>";
@@ -271,9 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57B9F9A12245A7BA00AC7902 /* CellController.swift in Sources */,
+				57B9F99D2245A30600AC7902 /* BaseDados.swift in Sources */,
 				575750A722342683005CADF3 /* vcICM.swift in Sources */,
 				575750792233F9DF005CADF3 /* ViewController.swift in Sources */,
 				575750A5223409B5005CADF3 /* SegundaTelaViewController.swift in Sources */,
+				57B9F99B2245A0D800AC7902 /* VCCardapio.swift in Sources */,
 				575750AB22344871005CADF3 /* vcTerceiraAtividade.swift in Sources */,
 				575750A92234399B005CADF3 /* vcAtividadeDois.swift in Sources */,
 				575750772233F9DF005CADF3 /* AppDelegate.swift in Sources */,
